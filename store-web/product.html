@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>frontend store</title>
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&family=Staatliches&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="styles/styles.css">
+
+</head>
+
+<body>
+    <header class="header">
+        <a href="index.html">
+            <img class="header__logo" src="images/logo.png" alt="logo">
+        </a>
+    </header>
+
+    <nav class="navegation">
+        <a class="navegation__link navegation__link--active" href="index.html">Store</a>
+        <a class="navegation__link" href="about.html">About</a>
+    </nav>
+
+    <main class="content">
+        <h1>React JS</h1>
+
+        <div class="shirt">
+            <img class="shirt__image" src="images/3.jpg" alt="shirt">
+
+            <div class="shirt__info">
+                <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum suscipit accusamus ex vel sint
+                    ducimus reprehenderit nostrum animi,
+                    dolorem facere ipsum assumenda possimus rem distinctio ipsam culpa maiores unde repellat!
+                </p>
+
+                <form class="form">
+                    <select class="form__select">
+                        <option disabled selected> Choose a size --</option>
+                        <option>small</option>
+                        <option>medium</option>
+                        <option>large</option>
+                    </select>
+
+                    <input class="form__select" type="number" placeholder="Quantity" min="0" max="20" step="1">
+                    <!-- input type="number" placeholder="Quantity" min="1" max="10" el max es el maximo hasta donde quiere que llegue, el step es para que sume con cierta cantidad, ejemplo, si le pones steps 10 se sumara en 10 en 10-->
+                    <input class="form__submit" type="submit" value="Add to cart">
+                </form>
+            </div>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <p class="footer__text">&copy; Frontend Store ADonis Lebron. All rights reserved 2026.</p>
+    </footer>
+
+</body>
+
+</html>
